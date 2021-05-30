@@ -83,7 +83,7 @@ const Formulario = ({crearCita}) => {
                     type="text"
                     name="mascota"
                     className="u-full-width"
-                    placeholder="Nombre de mascota"
+                    placeholder="Nombre de la mascota"
                     onChange= {handleOnChange}
                     value= {mascota}
                  />
@@ -113,14 +113,14 @@ const Formulario = ({crearCita}) => {
                     onChange= {handleOnChange}
                     value= {hora}
                  />
-                 <label>Síntomas</label>
+                  <label>Síntomas</label>
                 <textarea
                     className="u-full-width"
                     name="sintomas"
                     onChange= {handleOnChange}
                     value= {sintomas}>
                     
-                </textarea>
+                </textarea> 
                 <button 
                 type="submit"
                 className="u-full-width button-primary"

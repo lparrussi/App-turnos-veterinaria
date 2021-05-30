@@ -24,7 +24,7 @@ function App() {
     }else{
       localStorage.setItem('citas', JSON.stringify([]));
     }
-  }, [citas]);
+  }, [citas, citasIniciales]);
   
 
   //Funciones que tome las citas actuales y agregue una nueva
@@ -51,7 +51,7 @@ function App() {
 
   return (
     <Fragment>
-      <h1>Turnos para tus mascotas</h1>
+      <h1>Veterinaria</h1>
 
       <div className="Container">
         <div className= "row">
