@@ -7,12 +7,12 @@ const Cita = ({cita, handleSubmit}) => (
         {/* <p>Dueño: <span>{cita.propietario}</span></p> */}
         <p>fecha: <span>{cita.fecha}</span></p>
         <p>hora: <span>{cita.hora}</span></p>
-        <p>Tipo de uñas: <span>{cita.sintomas}</span></p>
+        <p>Sintomas: <span>{cita.sintomas}</span></p>
 
         <button 
         className="button eliminar u-full-width"
         onClick={() => handleSubmit(cita.id)}
-        >Eliminar</button>
+        >Cancelar turno</button>
     </div>
 )
 
