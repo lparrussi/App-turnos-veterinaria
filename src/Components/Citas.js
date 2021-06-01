@@ -3,8 +3,8 @@ import React from 'react'
 
 const Cita = ({cita, handleSubmit}) => (
     <div className= "cita">
-        <p>Cliente: <span>{cita.mascota}</span></p>
         <p>Dueño: <span>{cita.propietario}</span></p>
+        <p>Nombre de mascota: <span>{cita.mascota}</span></p>
         <p>Fecha: <span>{cita.fecha}</span></p>
         <p>Hora: <span>{cita.hora}</span></p>
         <p>Sintomas: <span>{cita.sintomas}</span></p>
